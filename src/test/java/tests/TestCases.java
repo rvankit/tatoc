@@ -19,6 +19,12 @@ public class TestCases {
         driver.get("http://10.0.1.86/tatoc/advanced");
         driver.manage().window().maximize();
     }
+    
+     @Test
+    public void clickOnMenuItem(){
+        HoverMenu hm = new HoverMenu(driver);
+        hm.clickOnMenu2();
+    }
 
     @Test
     public void clickOnMenuItem(){
