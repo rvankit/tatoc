@@ -17,6 +17,9 @@ public class HoverMenu {
     public void clickOnMenu2(){
         driver.findElement(menuTitle).click();
     }
+   
+    
+    
 
     public void clickOnGoNext() {
         driver.findElement(goNext).click();
